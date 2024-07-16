@@ -5,12 +5,16 @@ int main() {
 
     while (true)
     {
-        cout << "1. Add password" << endl;
-        cout << "2. Generate password" << endl;
-        cout << "3. Remove password" << endl;
-        cout << "4. Get password" << endl;
-        cout << "5. Print passwords" << endl;
-        cout << "6. Exit" << endl;
+        cout << R"(
+            =====================================
+            1. Add password
+            2. Generate password
+            3. Remove password
+            4. Get password
+            5. Print passwords
+            6. Exit
+            =====================================
+        )" << endl;
 
         int choice;
         cin >> choice;

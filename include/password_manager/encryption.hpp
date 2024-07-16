@@ -13,7 +13,7 @@ using namespace std;
 #include <openssl/aes.h>
 #include <openssl/rand.h>
 
-std::string encrypt(const std::string& plaintext, const std::string& key);
-std::string decrypt(const std::string& ciphertext, const std::string& key);
+string encrypt(const string& plaintext, const string& key);
+string decrypt(const string& ciphertext, const string& key);
 
 #endif
