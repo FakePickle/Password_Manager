@@ -1,6 +1,9 @@
+// Author: Harsh Mistry
+
 #include <password_manager/password_manager.hpp>
 
-int main() {
+int main()
+{
     PasswordManager pm("passwords.db", "my_master_password");
 
     while (true)
